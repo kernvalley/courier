@@ -1,0 +1,21 @@
+'@type': Organization
+'@context': 'http://schema.org'
+name: Kern River Courier
+email: 'office@kernrivercourier.com'
+telephone: +1-760-376-2860
+faxNumber: +1-760-376-2862
+address:
+  '@type': PostalAddress
+  streetAddress: 6392B Wofford Heights Blvd
+  postOfficeBoxNumber: 1145
+  addressLocality: Wofford Heights
+  addressRegion: California
+  postalCode: 93285
+  url: 'https://goo.gl/maps/sQCo6vEiTC22'
+url: 'http://www.kernrivercourier.com'
+logo:
+  '@type': ImageObject
+  url: 'http://www.kernrivercourier.com/index_htm_files/3.jpg'
+  width: 364
+  height: 119
+  encodingFormat: JPEG

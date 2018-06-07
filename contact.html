@@ -1,0 +1,29 @@
+---
+title: Contact
+layout: default
+---
+<div id="contact" class="card shadow" itemtype="http://schema.org/Organization" itemscope="">
+	<h2 itemprop="name">{{ site.data.publisher.name }}</h2>
+	<figure itemprop="logo" itemtype="http://schema.org/ImageObject" itemscope="">
+		<img itemprop="url" src="{{ site.data.publisher.logo.url }}" />
+	</figure>
+	<a href="{{ site.data.publisher.url }}" itemprop="url">
+		{% include icon.html icon='web-browser' %}
+		<span>{{ site.data.publisher.url | replace: 'http://', '' | replace: 'https://', '' }}</span>
+	</a>
+	<br />
+	<a href="mailto:{{ site.data.publisher.email }}" itemprop="email" content="{{ site.data.publisher.email }}">
+		{% include icon.html icon='mail-unread' %}
+		<span>{{ site.data.publisher.email }}</span>
+	</a>
+	<br />
+	<a href="tel:{{ site.data.publisher.telephone }}" itemprop="telephone" content="{{ site.data.publisher.telephone }}">
+		{% include icon.html icon='call-start' %}
+		<span>{{ site.data.publisher.telephone | replace: '+1-', '' }}</span>
+	</a>
+	<br />
+	<span itemprop="faxNumber" content="{{ site.data.publisher.faxNumber }}">
+		<span>{{ site.data.publisher.faxNumer | replace: '+1-', '' }}</span>
+	</span>
+	{% include address.html address=site.data.publisher.address itemprop='address' %}
+</div>
