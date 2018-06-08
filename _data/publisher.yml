@@ -15,7 +15,7 @@ address:
 url: 'http://www.kernrivercourier.com'
 logo:
   '@type': ImageObject
-  url: 'http://www.kernrivercourier.com/index_htm_files/3.jpg'
-  width: 364
-  height: 119
-  encodingFormat: JPEG
+  url: '/img/icon-192.png'
+  width: 192
+  height: 192
+  encodingFormat: png
