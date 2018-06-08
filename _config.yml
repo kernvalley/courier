@@ -18,6 +18,7 @@ service_worker: /service-worker.js
 og-type: website
 description: "The Kern River Courier, Whiskey Flat Claimjumper, Green Living,  Kern Angler and other Specialty Publications are published by Kern River Valley Publishing"
 mobile-web-app-capable: true
+logo: favicon
 # publisher: 'https://plus.google.com/113117303106986445610'
 # canonical: 'https://rafting.kernvalley.us'
 # contextmenu: nav-menu
