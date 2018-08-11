@@ -1,0 +1,7 @@
+#header {
+	position: sticky;
+	top: 0;
+	background-color: var(--accent-color);
+	box-shadow: 0 0.5em 0.3em rgba(0,0,0,0.5);
+	grid-area: header;
+}

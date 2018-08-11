@@ -1,0 +1,20 @@
+@import url("./header.css");
+@import url("./main.css");
+@import url("./footer.css");
+
+html, body {
+	min-height: 100vh;
+}
+
+body {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: grid;
+	grid-template-rows: var(--header-height) minmax(calc(100vh - var(--header-height) - var(--footer-height)), auto) auto var(--footer-height);
+	grid-template-columns: 2fr 75fr 23fr;
+	grid-template-areas: 'header header header'
+	'. main main'
+	'. main main'
+	'footer footer footer';
+}

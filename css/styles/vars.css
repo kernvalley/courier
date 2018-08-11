@@ -56,6 +56,9 @@
 	--highlight-background: #efefef;
 	--highlight-literal-number-color: #CCA418;
 	--backdrop-background: rgba(0,0,0,0.3);
+	
+	--header-height: 12vh;
+	--footer-height: 15vh;
 }
 
 ::backdrop {
